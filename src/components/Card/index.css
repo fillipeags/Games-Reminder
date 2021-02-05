@@ -1,0 +1,84 @@
+:root {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  text-transform: uppercase;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  height: 150px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.card-info {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  color: white;
+  background-color: #201629;
+
+  margin: 50px;
+
+  width: 80vw;
+  height: 150px;
+
+  border-radius: 15px;
+}
+
+.card-info h1 {
+  margin: 50px 10px;
+  padding: 0px;
+}
+
+.btn {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+  background: blueviolet;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: rgb(118, 0, 229);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-2 {
+  background: blueviolet;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  height: 100px;
+  width: 400px;
+  border: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.btn-2:hover {
+  background: rgb(118, 0, 229);
+  transition: 0.3s;
+  transform: scale(1.1);
+}
